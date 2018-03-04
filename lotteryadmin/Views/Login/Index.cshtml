@@ -1,0 +1,70 @@
+﻿@{ViewData["Title"] = "Home Page";}
+@{Layout=null;}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>后台登录</title>
+    <link href="~/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="~/assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="~/assets/css/style.css" rel="stylesheet">
+    <link href="~/assets/css/style-responsive.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="login-page">
+	  	<div class="container">
+	  	
+		      <form class="form-login" action="/Login/CheckLogin" method="post">
+		        <h2 class="form-login-heading">后台登录</h2>
+		        <div class="login-wrap">
+		            <input type="text" class="form-control" placeholder="用户名" autofocus name="username">
+		            <br>
+		            <input type="password" class="form-control" name="password" placeholder="密    码">
+		            <label class="checkbox">
+		                <span class="pull-right">
+		                    <a data-toggle="modal" href="login.html#myModal"> 忘记密码？</a>
+		                </span>
+		            </label>
+		            <button class="btn btn-theme btn-block"  type="submit"><i class="fa fa-lock"></i>现在登录</button>
+		        </div>
+		
+		          <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+		              <div class="modal-dialog">
+		                  <div class="modal-content">
+		                      <div class="modal-header">
+		                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		                          <h4 class="modal-title">忘记密码？</h4>
+		                      </div>
+		                      <div class="modal-body">
+		                          <p>请输入您的邮箱地址重置您的密码</p>
+		                          <input type="text" name="email" placeholder="Email" autocomplete="off" class="form-control placeholder-no-fix">
+		
+		                      </div>
+		                      <div class="modal-footer">
+		                          <button data-dismiss="modal" class="btn btn-default" type="button">取消</button>
+		                          <button class="btn btn-theme" type="button">提交</button>
+		                      </div>
+		                  </div>
+		              </div>
+		          </div>
+		
+		      </form>	  	
+	  	
+	  	</div>
+	  </div>
+    <script src="~/assets/js/jquery.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/assets/js/jquery.backstretch.min.js"></script>
+    <script>
+        $.backstretch("assets/img/login-bg.jpg", {speed: 500});
+    </script>
+  </body>
+</html>
+
+

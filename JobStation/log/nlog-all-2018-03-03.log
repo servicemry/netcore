@@ -1,0 +1,86 @@
+2018-03-03 22:01:02.2631||DEBUG|JobStation.Program|init main 
+2018-03-03 22:01:04.6234||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/Users/j/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2018-03-03 22:01:06.7179|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/   
+2018-03-03 22:01:06.9874|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method JobStation.Controllers.HomeController.Index (JobStation) with arguments ((null)) - ModelState is Valid 
+2018-03-03 22:01:06.9885||INFO|JobStation.Controllers.HomeController|Index page says hello 
+2018-03-03 22:01:09.3214|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2018-03-03 22:01:09.9188|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action JobStation.Controllers.HomeController.Index (JobStation) in 2930.242ms 
+2018-03-03 22:01:09.9197|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css   
+2018-03-03 22:01:09.9197|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js   
+2018-03-03 22:01:09.9197|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/css/site.css   
+2018-03-03 22:01:09.9424|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3221.865ms 200 text/html; charset=utf-8 
+2018-03-03 22:01:09.9428|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /css/site.css was not modified 
+2018-03-03 22:01:09.9428|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/bootstrap/dist/css/bootstrap.css was not modified 
+2018-03-03 22:01:09.9428|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/jquery/dist/jquery.js was not modified 
+2018-03-03 22:01:09.9519|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.187ms 304 text/css 
+2018-03-03 22:01:09.9519|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.183ms 304 application/javascript 
+2018-03-03 22:01:09.9917|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.js   
+2018-03-03 22:01:09.9519|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.158ms 304 text/css 
+2018-03-03 22:01:09.9946|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA   
+2018-03-03 22:01:09.9917|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/images/banner1.svg   
+2018-03-03 22:01:09.9917|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2   
+2018-03-03 22:01:09.9985|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/banner1.svg was not modified 
+2018-03-03 22:01:09.9946|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /js/site.js was not modified 
+2018-03-03 22:01:10.0021|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.403ms 304 image/svg+xml 
+2018-03-03 22:01:09.9943|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/bootstrap/dist/js/bootstrap.js was not modified 
+2018-03-03 22:01:10.0588|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 66.991ms 304 application/javascript 
+2018-03-03 22:01:09.9991|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 was not modified 
+2018-03-03 22:01:10.1102|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/images/banner2.svg   
+2018-03-03 22:01:10.1356|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 143.132ms 304 font/woff2 
+2018-03-03 22:01:10.1356|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/banner2.svg was not modified 
+2018-03-03 22:01:10.1423|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.061ms 304 image/svg+xml 
+2018-03-03 22:01:10.1545|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/images/banner4.svg   
+2018-03-03 22:01:10.1600|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/banner4.svg was not modified 
+2018-03-03 22:01:10.1619|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.336ms 304 image/svg+xml 
+2018-03-03 22:01:10.0813|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/images/banner3.svg   
+2018-03-03 22:01:10.0228|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.186ms 304 application/javascript 
+2018-03-03 22:01:10.1971|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/banner3.svg was not modified 
+2018-03-03 22:01:10.2093|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 127.983ms 304 image/svg+xml 
+2018-03-03 22:32:55.2139||DEBUG|JobStation.Program|init main 
+2018-03-03 22:33:19.2935|6|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: user'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at JobStation.Startup.ConfigureServices(IServiceCollection services) in /Users/j/Projects/Csharp/JobStation/Startup.cs:line 30
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2018-03-03 22:36:24.9579||DEBUG|JobStation.Program|init main 
+2018-03-03 22:59:38.0805||DEBUG|JobStation.Program|init main 
+2018-03-03 23:40:38.7866||DEBUG|JobStation.Program|init main 
+2018-03-03 23:40:41.8402||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/Users/j/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2018-03-03 23:40:44.2985|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/   
+2018-03-03 23:40:44.6937|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed for user: (null). 
+2018-03-03 23:40:44.6950|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2018-03-03 23:40:44.6986|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2018-03-03 23:40:44.7387|12|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Cookies was challenged. 
+2018-03-03 23:40:44.7432|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action JobStation.Controllers.HomeController.Index (JobStation) in 62.159ms 
+2018-03-03 23:40:44.7529|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 455.835ms 302  
+2018-03-03 23:40:44.7688|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/login?ReturnUrl=%2F   
+2018-03-03 23:40:44.7954|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method JobStation.Controllers.HomeController.Login (JobStation) with arguments ((null)) - ModelState is Valid 
+2018-03-03 23:40:48.1878|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|Executing ViewResult, running view at path /Views/Home/Login.cshtml. 
+2018-03-03 23:40:48.8517|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css   
+2018-03-03 23:40:48.8545|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/css/site.css   
+2018-03-03 23:40:48.8569|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.js   
+2018-03-03 23:40:48.8612|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/bootstrap/dist/css/bootstrap.css was not modified 
+2018-03-03 23:40:48.8629|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/bootstrap/dist/js/bootstrap.js was not modified 
+2018-03-03 23:40:48.8652|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.287ms 304 application/javascript 
+2018-03-03 23:40:48.8640|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.27ms 304 text/css 
+2018-03-03 23:40:48.8629|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /css/site.css was not modified 
+2018-03-03 23:40:48.9176|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 63.149ms 304 text/css 
+2018-03-03 23:40:48.9176|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA   
+2018-03-03 23:40:48.9504|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /js/site.js was not modified 
+2018-03-03 23:40:48.9526|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 34.924ms 304 application/javascript 
+2018-03-03 23:40:48.8777|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js   
+2018-03-03 23:40:48.8926|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action JobStation.Controllers.HomeController.Login (JobStation) in 4114.425ms 
+2018-03-03 23:40:48.9705|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/jquery/dist/jquery.js was not modified 
+2018-03-03 23:40:48.9726|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 94.919ms 304 application/javascript 
+2018-03-03 23:40:48.9899|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4221.111ms 200 text/html; charset=utf-8 

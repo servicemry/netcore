@@ -1,0 +1,11 @@
+/Users/j/Projects/Csharp/JobStation/bin/Debug/netcoreapp2.0/JobStation.deps.json
+/Users/j/Projects/Csharp/JobStation/bin/Debug/netcoreapp2.0/JobStation.runtimeconfig.json
+/Users/j/Projects/Csharp/JobStation/bin/Debug/netcoreapp2.0/JobStation.runtimeconfig.dev.json
+/Users/j/Projects/Csharp/JobStation/bin/Debug/netcoreapp2.0/JobStation.dll
+/Users/j/Projects/Csharp/JobStation/bin/Debug/netcoreapp2.0/JobStation.pdb
+/Users/j/Projects/Csharp/JobStation/obj/Debug/netcoreapp2.0/JobStation.csprojResolveAssemblyReference.cache
+/Users/j/Projects/Csharp/JobStation/obj/Debug/netcoreapp2.0/JobStation.csproj.CoreCompileInputs.cache
+/Users/j/Projects/Csharp/JobStation/obj/Debug/netcoreapp2.0/JobStation.AssemblyInfoInputs.cache
+/Users/j/Projects/Csharp/JobStation/obj/Debug/netcoreapp2.0/JobStation.AssemblyInfo.cs
+/Users/j/Projects/Csharp/JobStation/obj/Debug/netcoreapp2.0/JobStation.dll
+/Users/j/Projects/Csharp/JobStation/obj/Debug/netcoreapp2.0/JobStation.pdb

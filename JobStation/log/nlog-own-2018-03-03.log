@@ -1,0 +1,22 @@
+2018-03-03 22:01:02.2631||DEBUG|JobStation.Program|init main |url: |action: 
+2018-03-03 22:01:06.9885||INFO|JobStation.Controllers.HomeController|Index page says hello |url: |action: 
+2018-03-03 22:32:55.2139||DEBUG|JobStation.Program|init main |url: |action: 
+2018-03-03 22:33:19.2935|6|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: user'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.<QueryImpl>d__136`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at JobStation.Startup.ConfigureServices(IServiceCollection services) in /Users/j/Projects/Csharp/JobStation/Startup.cs:line 30
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()|url: |action: 
+2018-03-03 22:36:24.9579||DEBUG|JobStation.Program|init main |url: |action: 
+2018-03-03 22:59:38.0805||DEBUG|JobStation.Program|init main |url: |action: 
+2018-03-03 23:40:38.7866||DEBUG|JobStation.Program|init main |url: |action: 

@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{2DBFC2AC-E87D-42B6-9C17-AE8F69665CAB}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Home/Department.cshtml">
+    <Files>
+      <File FileName="Views/Home/Login.cshtml" Line="44" Column="60" />
+      <File FileName="Views/Home/Index.cshtml" Line="5" Column="1" />
+      <File FileName="Views/Home/Department.cshtml" Line="76" Column="42" />
+      <File FileName="Controllers/HomeController.cs" Line="114" Column="27" />
+      <File FileName="Models/Repository/DepartRepository.cs" Line="34" Column="95" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.working PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

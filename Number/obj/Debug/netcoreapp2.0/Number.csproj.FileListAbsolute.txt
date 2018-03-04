@@ -1,0 +1,10 @@
+/Users/J/Desktop/workspace/Number/bin/Debug/netcoreapp2.0/Number.deps.json
+/Users/J/Desktop/workspace/Number/bin/Debug/netcoreapp2.0/Number.runtimeconfig.json
+/Users/J/Desktop/workspace/Number/bin/Debug/netcoreapp2.0/Number.runtimeconfig.dev.json
+/Users/J/Desktop/workspace/Number/bin/Debug/netcoreapp2.0/Number.dll
+/Users/J/Desktop/workspace/Number/bin/Debug/netcoreapp2.0/Number.pdb
+/Users/J/Desktop/workspace/Number/obj/Debug/netcoreapp2.0/Number.csproj.CoreCompileInputs.cache
+/Users/J/Desktop/workspace/Number/obj/Debug/netcoreapp2.0/Number.AssemblyInfoInputs.cache
+/Users/J/Desktop/workspace/Number/obj/Debug/netcoreapp2.0/Number.AssemblyInfo.cs
+/Users/J/Desktop/workspace/Number/obj/Debug/netcoreapp2.0/Number.dll
+/Users/J/Desktop/workspace/Number/obj/Debug/netcoreapp2.0/Number.pdb

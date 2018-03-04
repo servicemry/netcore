@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{48041936-D192-4922-A252-BB8F11CD3EA3}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Home/Login.cshtml">
+    <Files>
+      <File FileName="Startup.cs" Line="30" Column="16" />
+      <File FileName="Views/Home/Login.cshtml" Line="12" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.JobStation PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

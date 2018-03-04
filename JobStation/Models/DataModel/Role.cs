@@ -1,0 +1,1 @@
+﻿using System;namespace JobStation.Models.DataModel{    public class Role    {        public int ID        {            get;            set;        }        public string RoleName        {            get;            set;        }    }}
